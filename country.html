@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country</title>
+    <style>
+        #country-information{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+        .country{
+            background-color: cornflowerblue;
+            padding: 10px;
+            border: 2px solid salmon;
+            border-radius: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>All countries information is here.</h1>
+    </header>
+    <main>
+        <section id="country-details">
+
+        </section>
+        <button onclick="loadCountry()" style="margin-bottom: 10px; margin-top: 10px;">Click To See Country Information</button>
+        <section id="country-information">
+
+        </section>
+    </main>
+
+    <script src="js/country.js"></script>
+</body>
+</html>
